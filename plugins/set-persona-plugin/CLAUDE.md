@@ -1,5 +1,5 @@
 ---
-description: Enter Agent configuration mode to configure self-awareness, knowledge base, and capabilities
+description: Configure agent settings (name, role, personality, knowledge, capabilities) when user requests changes
 argument-hint: []
 allowed-tools: XYZ_Tools_MCP_Server_master
 ---

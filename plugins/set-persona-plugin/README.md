@@ -1,6 +1,6 @@
-# Set Persona Plugin
+# Configure Agent Settings Plugin
 
-智能 Agent 配置插件 - 通过自然语言对话配置 Agent 的人设、能力和知识库。
+通过自然语言对话配置 Agent 的人设、能力和知识库。
 
 ## 功能
 
@@ -10,11 +10,14 @@
 
 ## 使用方式
 
-### 1. 自动触发
-用户在对话中提到配置相关内容（如"帮我改个名字"），Plugin 自动激活。
+### 1. Agent 自动识别
+Agent 识别到用户想要配置设置时（如"帮我改个名字"、"把你的角色改成客服"），会自动使用此 Plugin。
 
-### 2. Slash 命令
-使用 `/set-persona` 命令显式进入配置模式。
+### 2. 手动选择 Skill
+用户可以在平台界面手动选择 "Configure Agent Settings" skill。
+
+### 3. Slash 命令
+使用 `/set-persona` 命令显式触发配置。
 
 ## 核心原则
 
