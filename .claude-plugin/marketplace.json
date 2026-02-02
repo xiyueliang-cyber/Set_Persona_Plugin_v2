@@ -1,0 +1,13 @@
+{
+  "name": "set-persona-marketplace",
+  "owner": {
+    "name": "xiyue"
+  },
+  "plugins": [
+    {
+      "name": "set-persona-plugin",
+      "source": "./plugins/set-persona-plugin",
+      "description": "Configure agent's persona, knowledge base, and capabilities through natural conversation"
+    }
+  ]
+}
